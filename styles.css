@@ -21,39 +21,26 @@ body {
 }
 
 .search {
-  width: 100px;
+  border: 3px solid #5553;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-}
-.search input {
-  border: 0;
-  outline: 0;
-  background: #ebfffc;
-  color: #555;
-  padding: 10px 25px;
-  height: 60px;
-  border-radius: 30px;
-  flex: 1;
-  margin-right: 16px;
-  font-size: 18px;
+  border-radius: 33px;
 }
 
-.search button {
-  border: 0;
-  outline: 0;
+
+
+.search input, button{
+  border: none;
   background: #ebfffc;
-  border-radius: 80%;
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  padding: 10px;
 }
 
-.search button img {
-  width: 50px;
-  height: 60px;
-  padding: 6px;
+.search i{
+  opacity: 0.7;
 }
+
 
 .weather-icon{
   width: 170px;
